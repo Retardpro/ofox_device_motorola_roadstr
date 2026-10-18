@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device-specific OrangeFox configuration
-$(call inherit-product, $(DEVICE_PATH)/fox_peridot.mk)
+$(call inherit-product, $(DEVICE_PATH)/fox_roadstr.mk)
 
 # API
 PRODUCT_SHIPPING_API_LEVEL := 34
