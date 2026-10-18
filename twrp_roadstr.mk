@@ -9,6 +9,9 @@ DEVICE_PATH := device/motorola/roadstr
 # Inherit from device.mk configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
+# Device-specific OrangeFox configuration
+$(call inherit-product, $(DEVICE_PATH)/twrp_config.mk)
+
 # Release name
 PRODUCT_RELEASE_NAME := roadstr
 
