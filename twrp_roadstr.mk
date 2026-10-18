@@ -4,23 +4,23 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/peridot
+DEVICE_PATH := device/motorola/roadstr
 
 # Inherit from device.mk configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := peridot
+PRODUCT_RELEASE_NAME := roadstr
 
 ## Device identifier
-PRODUCT_DEVICE := peridot
-PRODUCT_NAME := twrp_peridot
-PRODUCT_BRAND := POCO
-PRODUCT_MODEL := POCO F6
-PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_DEVICE := roadstr
+PRODUCT_NAME := twrp_roadstr
+PRODUCT_BRAND := MOTOROLA
+PRODUCT_MODEL := Moto Edge 70
+PRODUCT_MANUFACTURER := Motorola
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := peridot
+TARGET_OTA_ASSERT_DEVICE := roadstr
 
 # Theme
 TW_STATUS_ICONS_ALIGN := center
