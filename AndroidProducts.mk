@@ -19,8 +19,5 @@
 
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_roadstr.mk
 
-COMMON_LUNCH_CHOICES := \
-    twrp_roadstr-user \
-    twrp_roadstr-userdebug \
-    twrp_roadstr-eng
+COMMON_LUNCH_CHOICES := twrp_roadstr-eng
 #
