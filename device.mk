@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/peridot
+DEVICE_PATH := device/motorola/roadstr
 
 # Base product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
