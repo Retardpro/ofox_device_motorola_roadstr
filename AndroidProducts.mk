@@ -20,7 +20,7 @@
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_peridot.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_peridot-user \
-    twrp_peridot-userdebug \
-    twrp_peridot-eng
+    twrp_roadstr-user \
+    twrp_roadstr-userdebug \
+    twrp_roadstr-eng
 #
